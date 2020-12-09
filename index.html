@@ -366,59 +366,6 @@
               </div></div>		<br/><br/> </div></div>
 
 
-
-         <script type="text/javascript">
-              function generateR(){
-                  var usr = document.getElementById("usr").
-                  value;var list = document.getElementById("list").
-                  value;var list2 = document.getElementById("list2").
-                  value;var list3 = document.getElementById("list3").
-                  value;if(list=="#"||list2=="#"||list3=="#"||usr==""){alert("Please Select ALL options");
-                }
-                  else{
-                       if( k==1){ k=2; var elem = document.getElementById("myBar-rb");
-                        var width = 1;
-                         document.getElementById("btn_center").
-                         style.display="none"; document.getElementById("msg1").
-                         style.display="block"; var id = setInterval(frame, 100);
-                         function frame() { if (width >= 100) {	 document.getElementById("msg2").
-                         style.display="none";	 document.getElementById("myBar-rb").
-                         style.display="none";	 document.getElementById("access1").
-                         style.display="block";		 clearInterval(id);	 k=1;
-                      } 
-                  else {
-                              width++; elem.style.width = width + '%';
-                               elem.innerHTML = width * 1 + '%';
-                                if(j==1){ dot=""; j++;
-                       }
-                 else if(j==2){
-                      dot="."; j++;
-                       }
-                 else if(j==3){
-                      dot=".."; j++; 
-                      } 
-                else if(j==4){
-                     dot="..."; j=1;
-                      } 
-                      document.getElementById("dot").
-                      innerHTML=dot;
-                	 document.getElementById("dot1").
-                     innerHTML=dot;
-                 if(width==100&&ii==1){
-                      document.getElementById("msg1").
-                      style.display="none";
-                       document.getElementById("msg2").
-                       style.display="block";
-                        width=1; ii=2;
-                         }
-                          }
-                           }
-                           }
-                           }
-                           }
-                           var ii=1;
-                           var j=1;
-                           var k=1;
             </script> 
             
         </body>
